@@ -2,7 +2,7 @@ import streamlit as st
 import zipfile
 import io
 import os
-from .converter import HeicConverter
+from utils.converter import HeicConverter
 from PIL import Image
 import tempfile
 import shutil
